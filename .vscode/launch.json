@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FirstprojectApplicationTests",
+            "request": "launch",
+            "mainClass": "com.example.demo.FirstprojectApplicationTests",
+            "projectName": "Firstproject"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FirstprojectApplication<Firstproject>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.FirstprojectApplication",
+            "projectName": "Firstproject",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
