@@ -3,12 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset= "UTF-8">
-<title>My App</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
 
-    <h1>I love Spring Boot</h1>
-
+ Welcome ${name}
+ 
 </body>
 </html>
+
+
+localhost:8080/home
