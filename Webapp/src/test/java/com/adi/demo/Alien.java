@@ -21,8 +21,6 @@ public class Alien {
 	}
 	public void setLang(String lang) {
 		this.lang = lang;
-	}
-	
-	
+	}	
 	
 }
