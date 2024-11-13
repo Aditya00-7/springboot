@@ -1,7 +1,6 @@
 package com.adi.demo;
 
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -30,6 +29,12 @@ public class Aliencontroller
 	{
 		ModelAndView mv =new ModelAndView("showAlien.jsp");
 		Alien alien = repo.findById(aid).orElse(new Alien());
+		
+		System.out.println(repo.findByTech("java"));
+		System.out.println(repo.findByAidGreaterThan(102));
+		System.out.println(repo.findByTechSorted("Java"));
+		
+		
 		mv.addObject(alien);
 	return mv;	
 	}
