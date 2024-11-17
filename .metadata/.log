@@ -8109,3 +8109,37 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-18 00:33:00.129
+!MESSAGE Classpath changed for project: SpringDataRest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-18 00:33:00.152
+!MESSAGE executing callback sts4.classpath.lCvOvXBS FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-18 00:33:00.152
+!MESSAGE No language server has registered to handle command 'sts4.classpath.lCvOvXBS'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.lCvOvXBS'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-18 00:33:00.462
+!MESSAGE executing callback sts4.classpath.lCvOvXBS FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-18 00:33:00.463
+!MESSAGE No language server has registered to handle command 'sts4.classpath.lCvOvXBS'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.lCvOvXBS'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-11-18 00:33:07.657
+!MESSAGE The workspace will exit with unsaved changes in this session.
